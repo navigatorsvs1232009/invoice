@@ -14,7 +14,7 @@ function writeToLog($data, $title = '') {
 
 function executeREST(string $method, array $params): array
 {
-    $queryUrl = 'https://crm.ocania.ru/rest/1/sssssssssssssssss/' . $method . '.json';
+    $queryUrl = 'https://crm.aaa.ru/rest/1/sssssssssssssssss/' . $method . '.json';
     $queryData = http_build_query($params);
 
     $curl = curl_init();
